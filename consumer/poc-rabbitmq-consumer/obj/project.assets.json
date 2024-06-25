@@ -1,0 +1,152 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "RabbitMQ.Client/7.0.0-rc.2": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.IO.Pipelines/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RabbitMQ.Client/7.0.0-rc.2": {
+      "sha512": "dyvNYEQixY16/fuzL5ezS+Xh9la7PBMsAI5UOtEjFcuhUuUIogSDoRCpwBgBL0/psZFCG8ZVS9w4Nec1e9otmw==",
+      "type": "package",
+      "path": "rabbitmq.client/7.0.0-rc.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net6.0/RabbitMQ.Client.dll",
+        "lib/net6.0/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.7.0.0-rc.2.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
+    "System.IO.Pipelines/6.0.0": {
+      "sha512": "mXX66shZ4xLlI3vNLaJ0lt8OIZdmXTvIqXRdQX5HLVGSkLhINLsVhyZuX2UdRFnOGkqnwmMUs40pIIQ7mna4+A==",
+      "type": "package",
+      "path": "system.io.pipelines/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.IO.Pipelines.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.IO.Pipelines.dll",
+        "lib/net461/System.IO.Pipelines.xml",
+        "lib/net6.0/System.IO.Pipelines.dll",
+        "lib/net6.0/System.IO.Pipelines.xml",
+        "lib/netcoreapp3.1/System.IO.Pipelines.dll",
+        "lib/netcoreapp3.1/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.6.0.0.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "RabbitMQ.Client >= 7.0.0-rc.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Bruno\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Dev\\BackEnd\\poc-rabbitmq\\consumer\\poc-rabbitmq-consumer\\poc-rabbitmq-consumer.csproj",
+      "projectName": "poc-rabbitmq-consumer",
+      "projectPath": "C:\\Dev\\BackEnd\\poc-rabbitmq\\consumer\\poc-rabbitmq-consumer\\poc-rabbitmq-consumer.csproj",
+      "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+      "outputPath": "C:\\Dev\\BackEnd\\poc-rabbitmq\\consumer\\poc-rabbitmq-consumer\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[7.0.0-rc.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Users\\Bruno\\.dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

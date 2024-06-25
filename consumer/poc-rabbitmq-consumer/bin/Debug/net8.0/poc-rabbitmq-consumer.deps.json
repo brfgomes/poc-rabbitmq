@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "poc-rabbitmq-consumer/1.0.0": {
+        "dependencies": {
+          "RabbitMQ.Client": "7.0.0-rc.2"
+        },
+        "runtime": {
+          "poc-rabbitmq-consumer.dll": {}
+        }
+      },
+      "RabbitMQ.Client/7.0.0-rc.2": {
+        "dependencies": {
+          "System.IO.Pipelines": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/RabbitMQ.Client.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "System.IO.Pipelines/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.IO.Pipelines.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "poc-rabbitmq-consumer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RabbitMQ.Client/7.0.0-rc.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dyvNYEQixY16/fuzL5ezS+Xh9la7PBMsAI5UOtEjFcuhUuUIogSDoRCpwBgBL0/psZFCG8ZVS9w4Nec1e9otmw==",
+      "path": "rabbitmq.client/7.0.0-rc.2",
+      "hashPath": "rabbitmq.client.7.0.0-rc.2.nupkg.sha512"
+    },
+    "System.IO.Pipelines/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mXX66shZ4xLlI3vNLaJ0lt8OIZdmXTvIqXRdQX5HLVGSkLhINLsVhyZuX2UdRFnOGkqnwmMUs40pIIQ7mna4+A==",
+      "path": "system.io.pipelines/6.0.0",
+      "hashPath": "system.io.pipelines.6.0.0.nupkg.sha512"
+    }
+  }
+}

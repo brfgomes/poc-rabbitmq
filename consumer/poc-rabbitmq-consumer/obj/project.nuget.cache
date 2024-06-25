@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0bSpflA05mZh9ozXhRgOqLbEsO+P8qkALdanEEdGcPbcfTcwtqFGrtz9cAZDboOlp5dVT8tVcLYgrCvuF5Tsqg==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\BackEnd\\poc-rabbitmq\\consumer\\poc-rabbitmq-consumer\\poc-rabbitmq-consumer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bruno\\.nuget\\packages\\rabbitmq.client\\7.0.0-rc.2\\rabbitmq.client.7.0.0-rc.2.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\system.io.pipelines\\6.0.0\\system.io.pipelines.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

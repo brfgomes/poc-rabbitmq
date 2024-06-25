@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6YfOjfL/rjas5n/wxTCi/yUvnu1g3QWeIZjGeT8hBxHIbxIJQ5IJkSHpHT2d9BStfCLYpfrWdFBN+ORXq7Q1ZA==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\BackEnd\\poc-rabbitmq\\sendler\\poc-rabbitmq-sendler\\poc-rabbitmq-sendler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bruno\\.nuget\\packages\\rabbitmq.client\\7.0.0-rc.2\\rabbitmq.client.7.0.0-rc.2.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\system.io.pipelines\\6.0.0\\system.io.pipelines.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
