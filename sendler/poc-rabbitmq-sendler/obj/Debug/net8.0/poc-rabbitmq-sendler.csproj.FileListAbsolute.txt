@@ -16,3 +16,4 @@ C:\Dev\BackEnd\poc-rabbitmq\sendler\poc-rabbitmq-sendler\bin\Debug\net8.0\Rabbit
 C:\Dev\BackEnd\poc-rabbitmq\sendler\poc-rabbitmq-sendler\bin\Debug\net8.0\System.IO.Pipelines.dll
 C:\Dev\BackEnd\poc-rabbitmq\sendler\poc-rabbitmq-sendler\obj\Debug\net8.0\poc-rabbitmq-sendler.csproj.AssemblyReference.cache
 C:\Dev\BackEnd\poc-rabbitmq\sendler\poc-rabbitmq-sendler\obj\Debug\net8.0\poc-rabb.774BE690.Up2Date
+C:\Dev\BackEnd\poc-rabbitmq\sendler\poc-rabbitmq-sendler\obj\Debug\net8.0\poc-rabbitmq-sendler.sourcelink.json

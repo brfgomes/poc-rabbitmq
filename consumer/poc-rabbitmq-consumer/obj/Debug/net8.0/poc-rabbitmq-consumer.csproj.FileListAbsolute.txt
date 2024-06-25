@@ -16,3 +16,4 @@ C:\Dev\BackEnd\poc-rabbitmq\consumer\poc-rabbitmq-consumer\obj\Debug\net8.0\refi
 C:\Dev\BackEnd\poc-rabbitmq\consumer\poc-rabbitmq-consumer\obj\Debug\net8.0\poc-rabbitmq-consumer.pdb
 C:\Dev\BackEnd\poc-rabbitmq\consumer\poc-rabbitmq-consumer\obj\Debug\net8.0\poc-rabbitmq-consumer.genruntimeconfig.cache
 C:\Dev\BackEnd\poc-rabbitmq\consumer\poc-rabbitmq-consumer\obj\Debug\net8.0\ref\poc-rabbitmq-consumer.dll
+C:\Dev\BackEnd\poc-rabbitmq\consumer\poc-rabbitmq-consumer\obj\Debug\net8.0\poc-rabbitmq-consumer.sourcelink.json

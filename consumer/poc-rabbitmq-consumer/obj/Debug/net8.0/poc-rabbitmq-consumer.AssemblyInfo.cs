@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("poc-rabbitmq-consumer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35a355a862c2457fa49311cd8273e81b00b904f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("poc-rabbitmq-consumer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("poc-rabbitmq-consumer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
